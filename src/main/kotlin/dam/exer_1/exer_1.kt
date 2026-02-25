@@ -1,16 +1,19 @@
 package org.example.dam.exer_1
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+// Create and initialize an integer array with the first 50 perfect squares (1^2,2^2,...,50^2)
 fun main() {
-    val name = "Kotlin"
-    //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-    // to see how IntelliJ IDEA suggests fixing it.
-    println("Hello, " + name + "!")
 
-    for (i in 1..5) {
-        //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-        // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-        println("i = $i")
-    }
+    // a) Using IntArray constructor
+    val perfectSquares = IntArray(50) { i -> (i+1) * (i+1) }
+    println(message= perfectSquares.contentToString())
+
+    // b) Using a range and map()
+    val range = 1..50
+    val perfectSquaresMap = range.associateWith { it * it }
+    println(message= perfectSquaresMap)
+
+    // c) Using Array with constructor
+    val perfectSquaresArray = Array(50) { i -> (i+1) * (i+1) }
+    println(message= perfectSquares.joinToString(", "))
+
 }
