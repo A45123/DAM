@@ -1,4 +1,5 @@
-# Assignment --TODO--
+# Assignment Building Your First Android App <sub>[AC YES, AI NO]</sub>
+![Android](https://img.shields.io/badge/Platform-Android-green)(#) ![Kotlin](https://img.shields.io/badge/Language-Kotlin-orange)(#) ![Version](https://img.shields.io/badge/API-24%2B-blue)(#)
 
 Course: Licenciatura em Engenharia Informática e Multimédia <br>
 Student(s): 45123 <br>
@@ -7,43 +8,43 @@ Repository URL: [Hello_World](https://github.com/A45123/Hello_World) <br>
 
 ---
 
-## 1. Introduction
+## 📖 1. Introduction
 
-Este trabalho descreve o desenvolvimento do primeiro aplicativo Android “Hello Mobile World” utilizando [![Kotlin](https://img.shields.io/badge/Language-Kotlin-orange)](#) e Android Studio. O objetivo é aprender a criar um projeto Android básico, compreender a estrutura de arquivos gerada automaticamente pelo IDE e implementar elementos de interface gráfica como TextView, ImageView e CalendarView. O exercício inclui melhorias na interface e testes em emulador.
+Este trabalho descreve o desenvolvimento do primeiro aplicativo Android `“Hello Mobile World”` utilizando Kotlin e Android Studio. O objetivo é aprender a criar um projeto Android básico, compreender a estrutura de arquivos gerada automaticamente pelo IDE e implementar elementos de interface gráfica como `TextView`, `ImageView` e `CalendarView`. O exercício inclui melhorias na interface e testes em emulador.
 
 
 
-## 2. System Overview
+## 🖥️ 2. System Overview
 
-O sistema é um aplicativo Android simples com uma tela principal (MainActivity) exibindo textos, imagens e um calendário. Ele serve como introdução à programação Android, fornecendo prática com:
+O sistema é um aplicativo Android simples com uma tela principal (`MainActivity`) exibindo textos, imagens e um calendário. Ele serve como introdução à programação Android, fornecendo prática com:
 - Criação de novos projetos no Android Studio
 - Configuração de nomes, pacotes e nível mínimo de API
-- Manipulação de recursos (res/layout, res/drawable, res/values)
+- Manipulação de recursos (`res/layout`, `res/drawable`, `res/values`)
 - Layouts responsivos e suporte a orientação paisagem
 
 
 
-## 3. Architecture and Design
+## 🏗️ 3. Architecture and Design
 
 O aplicativo segue a arquitetura básica de Activity única:
-- Manifest: declara MainActivity, permissões e configurações do aplicativo
-- MainActivity.kt: contém a lógica principal
-- activity_main.xml: define a interface gráfica
-- Res/Values: strings, cores, dimensões e temas
-- Res/Drawable e Mipmap: imagens e ícones
+- **Manifest**: declara `MainActivity`, permissões e configurações do aplicativo
+- **MainActivity.kt**: contém a lógica principal
+- **activity_main.xml**: define a interface gráfica
+- **Res/Values**: strings, cores, dimensões e temas
+- **Res/Drawable e Mipmap**: imagens e ícones
 
 Decisões de design:
-- Uso de ConstraintLayout para posicionamento flexível dos elementos
-- Strings externas em strings.xml para suporte à internacionalização
+- Uso de `ConstraintLayout` para posicionamento flexível dos elementos
+- Strings externas em `strings.xml` para suporte à internacionalização
 - Diferenciação de layouts para retrato e paisagem
 
 
 
-## 4. Implementation
+## ⚙️ 4. Implementation
 
-### 4.1. --TODO--
+### 4.1. Create a “Hello Mobile World” Application
+- Criação do projeto Empty Views Activity no Android Studio com Kotlin, pacote `dam_a45123.helloworld` e API mínima 24.
 
---TODO--
 <br>
 
 ### 4.2. --TODO--
@@ -53,13 +54,13 @@ Decisões de design:
 
 
 
-## 5. Testing and Validation
+## 🔍 5. Testing and Validation
 
 --TODO--
 
 
 
-## 6. Usage Instructions
+## 📝 6. Usage Instructions
 
 --TODO--
 
@@ -75,25 +76,25 @@ Decisões de design:
 
 # Development Process
 
-## 12. Version Control and Commit History
+## 📦 12. Version Control and Commit History
 
 --TODO--
 
 
 
-## 13. Difficulties and Lessons Learned
+## 🌱 13. Difficulties and Lessons Learned
 
 --TODO--
 
 
 
-## 14. Future Improvements
+## 🔧 14. Future Improvements
 
 --TODO--
 
 ---
 
-## 15. AI Usage Disclosure (Mandatory)
+## ⚠️ 15. AI Usage Disclosure (Mandatory)
 
 --TODO--
 
