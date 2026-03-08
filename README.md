@@ -117,7 +117,17 @@ O controle de versão foi realizado utilizando Git, porém, devido à conclusão
 
 ## 🌱 13. Difficulties and Lessons Learned
 
+### 13.1 Dificuldades
+
 O desenvolvimento do projeto ocorreu de forma tranquila e sem dificuldades significativas. Todas as etapas foram concluídas conforme planejado, permitindo aprender e aplicar os conceitos de criação de aplicativos Android com Kotlin de maneira clara e prática.
+
+
+
+### 13.2 Lições Aprendidas
+
+- Experiência prática com `TextView`, `ImageView` e `CalendarView`.
+- Aprendizado sobre o uso de `ConstraintLayout` para layouts responsivos.
+- Aplicação de boas práticas como strings externas para internacionalização e layouts diferenciados para retrato e paisagem.
 
 
 
