@@ -1,20 +1,54 @@
-# Assignment X —Title
+# Assignment Tutorial 1 - Hello World
 
 Course: Licenciatura em Engenharia Informática e Multimédia
 Student(s): 45123
 Date: 08/03/2026
-Repository URL: ___________
+Repository URL: https://github.com/A45123/DAM_TP1/tree/master
 
 ---
 
 ## 1. Introduction
-<!-- Purpose of the assignment, problem description, and objectives.-->
+
+O objetivo deste trabalho é aprender os conceitos básicos da linguagem Kotlin e praticar a sua utilização através de pequenos exercícios. Durante o desenvolvimento do projeto foi utilizado o IntelliJ IDEA e o Git para organizar o código e controlar versões.
+
+O trabalho consiste em três exercícios principais: criação de arrays com quadrados perfeitos, desenvolvimento de uma calculadora em consola e simulação do movimento de uma bola que salta várias vezes. Estes exercícios ajudam a compreender melhor estruturas de controlo, arrays, tratamento de erros e sequências em Kotlin.
+
+
 
 ## 2. System Overview
-<!-- High-level description of the solution, main features, and use cases.-->
+
+O projeto foi criado com o nome DAM_TP1 e está organizado em vários packages, um para cada exercício.
+
+Os principais componentes do projeto são:
+- exer_1 – cria um array com os primeiros 50 quadrados perfeitos usando diferentes métodos do Kotlin.
+- exer_2 – uma calculadora em consola que permite fazer operações matemáticas, booleanas e bitwise.
+- exer_3 – simulação de uma bola que salta e perde altura a cada salto.
+
+Cada exercício mostra diferentes funcionalidades da linguagem Kotlin.
+
+
 
 ## 3. Architecture and Design
-<!-- Architecture, folder structure, design patterns, and justification of key decisions.-->
+
+O projeto foi organizado em packages para separar cada exercício e manter o código mais organizado.
+
+Estrutura principal:
+dam/
+ ├─ exer_1/
+ │   └─ exer_1.kt
+ ├─ exer_2/
+ │   └─ exer_2.kt
+ └─ exer_3/
+     └─ exer_3.kt
+
+Esta organização facilita a leitura do código e permite trabalhar em cada exercício de forma independente.
+
+Também foram utilizadas algumas funcionalidades do Kotlin como:
+- map() para transformar valores
+- when para escolher operações
+- generateSequence() para gerar sequências de valores
+
+
 
 ## 4. Implementation
 <!-- Implementation details: main modules, components, algorithms, and relevant code excerpts.-->
@@ -28,22 +62,7 @@ Repository URL: ___________
 
 
 # Autonomous Software Engineering Sections- only for [AC OK, AI OK] sections
-
-## 7. Prompting Strategy
-<!-- Describe the prompts used with AI tools, their purpose, and how they evolved. Include representative examples.-->
-
-## 8. Autonomous Agent Workflow
-<!-- Explain how AI tools or agents contributed to development: planning, coding, debugging, testing, documentation, etc.-->
-
-## 9. Verification of AI-Generated Artifacts
-<!-- Describe how you verified correctness of AI-generated code/designs (testing, manual review, static analysis, etc.).-->
-
-## 10. Human vs AI Contribution
-<!-- Clearly state which parts were primarily human-developed and which were AI-assisted.-->
-
-## 11. Ethical and Responsible Use
-<!-- Reflect on risks, limitations, biases, or inappropriate outputs from AI tools and how they were handled.-->--
-
+Neste trabalho não foi usado nem Auto Complete nem Inteligencia Artificial, por estes motivos esta secção não vai ser 
 
 
 # Development Process
