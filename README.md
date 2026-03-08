@@ -1,4 +1,6 @@
 # Assignment Tutorial 1 - Hello World
+[![IntelliJ IDEA](https://img.shields.io/badge/IDE-IntelliJ%20IDEA-blue)](#)
+[![Kotlin](https://img.shields.io/badge/Language-Kotlin-orange)](#)
 
 Course: Licenciatura em Engenharia Informática e Multimédia <br>
 Student(s): 45123 <br>
@@ -7,28 +9,28 @@ Repository URL: [DAM_TP1](https://github.com/A45123/DAM_TP1/tree/master) <br>
 
 ---
 
-## 1. Introduction
+## 📖 1. Introduction
 
-O objetivo deste trabalho é aprender os conceitos básicos da linguagem Kotlin e praticar a sua utilização através de pequenos exercícios. Durante o desenvolvimento do projeto foi utilizado o IntelliJ IDEA e o Git para organizar o código e controlar versões.
+O objetivo deste trabalho é aprender os conceitos básicos da linguagem Kotlin e praticar a sua utilização através de pequenos exercícios. Durante o desenvolvimento do projeto foi utilizado o `IntelliJ IDEA` e o `Git` para organizar o código e controlar versões.
 
 O trabalho consiste em três exercícios principais: criação de arrays com quadrados perfeitos, desenvolvimento de uma calculadora em consola e simulação do movimento de uma bola que salta várias vezes. Estes exercícios ajudam a compreender melhor estruturas de controlo, arrays, tratamento de erros e sequências em Kotlin.
 
 
 
-## 2. System Overview
+## 🖥️ 2. System Overview
 
-O projeto foi criado com o nome DAM_TP1 e está organizado em vários packages, um para cada exercício.
+O projeto foi criado com o nome **DAM_TP1** e está organizado em vários packages, um para cada exercício.
 
 Os principais componentes do projeto são:
-- exer_1 – cria um array com os primeiros 50 quadrados perfeitos usando diferentes métodos do Kotlin.
-- exer_2 – uma calculadora em consola que permite fazer operações matemáticas, booleanas e bitwise.
-- exer_3 – simulação de uma bola que salta e perde altura a cada salto.
+- **exer_1** – cria um array com os primeiros 50 quadrados perfeitos usando diferentes métodos do Kotlin.
+- **exer_2** – uma calculadora em consola que permite fazer operações matemáticas, booleanas e bitwise.
+- **exer_3** – simulação de uma bola que salta e perde altura a cada salto.
 
 Cada exercício mostra diferentes funcionalidades da linguagem Kotlin.
 
 
 
-## 3. Architecture and Design
+## 🏗️ 3. Architecture and Design
 
 O projeto foi organizado em packages para separar cada exercício e manter o código mais organizado.
 
@@ -47,13 +49,13 @@ dam
 Esta organização facilita a leitura do código e permite trabalhar em cada exercício de forma independente.
 
 Também foram utilizadas algumas funcionalidades do Kotlin como:
-- map() para transformar valores
-- when para escolher operações
-- generateSequence() para gerar sequências de valores
+- `map()` para transformar valores
+- `when` para escolher operações
+- `generateSequence()` para gerar sequências de valores
 
 
 
-## 4. Implementation
+## ⚙️ 4. Implementation
 
 ### 4.1. Exercício 1
 
@@ -82,14 +84,12 @@ Os resultados são apresentados em decimal, hexadecimal e booleano.
 
 ### 4.3. Exercício 3
 
-Exercício 3
-
 Este exercício simula o movimento de uma bola que é largada de 100 metros e que, após cada salto, atinge 60% da altura anterior.
-Foi usada a função generateSequence() para gerar as alturas dos saltos.
+Foi usada a função `generateSequence()` para gerar as alturas dos saltos.
 
 Depois foram aplicados:
-- filter para manter apenas valores acima de 1 metro
-- take(15) para obter os primeiros 15 saltos
+- `filter` para manter apenas valores acima de 1 metro
+- `take(15)` para obter os primeiros 15 saltos
 - conversão para lista
 
 As alturas são apresentadas com duas casas decimais.
@@ -97,7 +97,7 @@ As alturas são apresentadas com duas casas decimais.
 
 
 
-## 5. Testing and Validation
+## 🔍 5. Testing and Validation
 
 Os testes foram feitos executando cada exercício e verificando os resultados apresentados na consola.
 
@@ -109,11 +109,11 @@ No exercício 3 foi verificado se as alturas dos saltos diminuíam corretamente 
 
 
 
-## 6. Usage Instructions
+## 📝 6. Usage Instructions
 
 Para executar o projeto é necessário:
-- IntelliJ IDEA
-- Kotlin
+- `IntelliJ IDEA`
+- `Kotlin`
 
 Passos para executar:
 - Abrir o projeto no IntelliJ IDEA.
@@ -126,23 +126,23 @@ Passos para executar:
 
 # Autonomous Software Engineering Sections- only for [AC OK, AI OK] sections
 
-Esta secção não se aplica a este trabalho, uma vez que o enunciado indica explicitamente AC NO e AI NO, ou seja, não é permitido o uso de Auto Complete nem ferramentas de Inteligência Artificial.
+Esta secção não se aplica a este trabalho, uma vez que o enunciado indica explicitamente **AC NO** e **AI NO**, ou seja, não é permitido o uso de Auto Complete nem ferramentas de Inteligência Artificial.
 
 ---
 
 # Development Process
 
-## 12. Version Control and Commit History
+## 📦 12. Version Control and Commit History
 
-Durante o desenvolvimento foi utilizado Git com um repositório local criado no IntelliJ.
+Durante o desenvolvimento foi utilizado **Git** com um repositório local criado no **IntelliJ**.
 
-Neste caso, apenas foi feito um commit, que incluiu todo o projeto já com a estrutura de packages e os exercícios implementados.
+Neste caso, apenas foi feito um `commit`, que incluiu todo o projeto já com a estrutura de packages e os exercícios implementados.
 
 
 
-## 13. Difficulties and Lessons Learned
+## 🌱 13. Difficulties and Lessons Learned
 
-Uma das principais dificuldades foi perceber melhor algumas funcionalidades do Kotlin, especialmente sequences e a função generateSequence().
+Uma das principais dificuldades foi perceber melhor algumas funcionalidades do Kotlin, especialmente sequences e a função `generateSequence()`.
 
 Também foi necessário testar várias vezes a calculadora para garantir que os erros eram tratados corretamente.
 
@@ -153,7 +153,7 @@ Com este trabalho foi possível melhorar conhecimentos em:
 
 
 
-## 14. Future Improvements
+## 🔧 14. Future Improvements
 
 No futuro seria interessante melhorar o projeto adicionando:
 - uma interface gráfica para a calculadora
@@ -165,7 +165,7 @@ No futuro seria interessante melhorar o projeto adicionando:
 
 ---
 
-## 15. AI Usage Disclosure (Mandatory)
+## ⚠️ 15. AI Usage Disclosure (Mandatory)
 
 De acordo com as instruções do trabalho, não foram utilizadas ferramentas de Inteligência Artificial nem auto-complete durante o desenvolvimento dos exercícios.
 
