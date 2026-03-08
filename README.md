@@ -1,5 +1,7 @@
 # Assignment Building Your First Android App
-[![Android](https://img.shields.io/badge/Platform-Android-green)](#) [![Kotlin](https://img.shields.io/badge/Language-Kotlin-orange)](#) [![Version](https://img.shields.io/badge/API-24%2B-blue)](#)
+[![Android Studio](https://img.shields.io/badge/IDE-Android%20Studio-green)](#) 
+[![Kotlin](https://img.shields.io/badge/Language-Kotlin-orange)](#) 
+[![Version](https://img.shields.io/badge/API-24%2B-blue)](#)
 
 Course: Licenciatura em Engenharia Informática e Multimédia <br>
 Student(s): 45123 <br>
