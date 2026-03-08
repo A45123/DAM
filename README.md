@@ -142,10 +142,12 @@ Neste caso, apenas foi feito um `commit`, que incluiu todo o projeto já com a e
 
 ## 🌱 13. Difficulties and Lessons Learned
 
+### 13.1 Dificuldades
 Uma das principais dificuldades foi perceber melhor algumas funcionalidades do Kotlin, especialmente sequences e a função `generateSequence()`.
 
 Também foi necessário testar várias vezes a calculadora para garantir que os erros eram tratados corretamente.
 
+### 13.2 Lições Aprendidas
 Com este trabalho foi possível melhorar conhecimentos em:
 - sintaxe de Kotlin
 - utilização de arrays e sequências
