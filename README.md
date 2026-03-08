@@ -55,7 +55,7 @@ Também foram utilizadas algumas funcionalidades do Kotlin como:
 
 ## 4. Implementation
 
-### Exercício 1
+### 4.1. Exercício 1
 
 Neste exercício foi criado um array com os primeiros 50 quadrados perfeitos. Foram usadas três formas diferentes:
 - IntArray
@@ -66,7 +66,7 @@ O objetivo foi perceber as diferentes formas de criar e inicializar arrays em Ko
 
 <br>
 
-### Exercício 2
+### 4.2. Exercício 2
 
 Foi criada uma calculadora em consola que permite ao utilizador escolher várias operações.
 
@@ -80,7 +80,7 @@ Os resultados são apresentados em decimal, hexadecimal e booleano.
 
 <br>
 
-### Exercício 3
+### 4.3. Exercício 3
 
 Exercício 3
 
