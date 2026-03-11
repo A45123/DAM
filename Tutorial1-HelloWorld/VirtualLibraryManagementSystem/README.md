@@ -5,7 +5,7 @@
 Course: Licenciatura em Engenharia Informática e Multimédia <br>
 Student(s): 45123 <br>
 Date: 08/03/2026 <br>
-Repository URL: [VirtualLibraryManagementSystem](https://github.com/A45123/VirtualLibraryManagementSystem) <br>
+Repository URL: [VirtualLibraryManagementSystem](https://github.com/A45123/DAM/tree/main/Tutorial1-HelloWorld/VirtualLibraryManagementSystem) <br>
 
 ---
 
