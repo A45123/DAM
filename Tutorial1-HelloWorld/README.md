@@ -1,4 +1,4 @@
-# Assignment DAM-Tutorial1-HelloWorld
+# Assignment Tutorial1-HelloWorld
 [![IntelliJ IDEA](https://img.shields.io/badge/IDE-IntelliJ%20IDEA-blue)](#)
 [![Android Studio](https://img.shields.io/badge/IDE-Android%20Studio-green)](#) 
 [![Kotlin](https://img.shields.io/badge/Language-Kotlin-orange)](#)
@@ -7,7 +7,7 @@
 Course: Licenciatura em Engenharia Informática e Multimédia <br>
 Student(s): 45123 <br>
 Date: 08/03/2026 <br>
-Repository URL: [DAM-Tutorial1-HelloWorld](https://github.com/A45123/DAM-Tutorial1-HelloWorld) <br>
+Repository URL: [DAM-Tutorial1-HelloWorld](https://github.com/A45123/DAM/tree/main/Tutorial1-HelloWorld) <br>
 
 ---
 
