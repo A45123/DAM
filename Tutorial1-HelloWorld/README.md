@@ -31,7 +31,7 @@ Cada diretório deste repositório corresponde a um projeto independente que abo
 
 # Projetos
 
-## DAM_TP1 — Kotlin Basics and Console Exercises
+## [DAM_TP1](https://github.com/A45123/DAM/tree/main/Tutorial1-HelloWorld/DAM_TP1) — Kotlin Basics and Console Exercises
 
 Projeto introdutório desenvolvido usando **Kotlin** e o **InterlliJ IDEA**, focado nos **conceitos básicos da linguagem Kotlin** através de exercícios executados em consola. 
 
