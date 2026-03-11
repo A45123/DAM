@@ -45,7 +45,7 @@ Este projeto serviu como primeiro contacto com estruturas de controlo, arrays, t
 
 ---
 
-## Hello_World — First Android Application
+## [Hello_World](https://github.com/A45123/DAM/tree/main/Tutorial1-HelloWorld/Hello_World) — First Android Application
 
 Primeira aplicação Android desenvolvida usando o **Kotlin** e o **Android Studio**, criada para compreender a estrutura de um projeto Android e a construção de interfaces gráficas simples.
 
@@ -64,7 +64,7 @@ O projeto também explora conceitos importantes do desenvolvimento Android, incl
 
 ---
 
-## Hello_World_Optional — Android System Information App
+## [Hello_World_Optional](https://github.com/A45123/DAM/tree/main/Tutorial1-HelloWorld/Hello_World_Optional) — Android System Information App
 
 Aplicação Android simples desenvolvida usando o **Kotlin** e o **Android Studio** que exibe **informações do dispositivo atual** diretamente na interface da aplicação.
 
@@ -79,7 +79,7 @@ Essas informações são apresentadas num **TextView multilinha**, permitindo vi
 
 ---
 
-## VirtualLibraryManagementSystem — Virtual Library System in Kotlin
+## [VirtualLibraryManagementSystem](https://github.com/A45123/DAM/tree/main/Tutorial1-HelloWorld/VirtualLibraryManagementSystem) — Virtual Library System in Kotlin
 
 Sistema de **gestão de biblioteca virtual** desenvolvido usando o **Kotlin** e o **InterlliJ IDEA** com foco na aplicação de **programação orientada a objetos**.
 
