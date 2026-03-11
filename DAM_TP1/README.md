@@ -5,7 +5,7 @@
 Course: Licenciatura em Engenharia Informática e Multimédia <br>
 Student(s): 45123 <br>
 Date: 08/03/2026 <br>
-Repository URL: [DAM_TP1](https://github.com/A45123/DAM_TP1/tree/master) <br>
+Repository URL: [DAM_TP1](https://github.com/A45123/DAM-Tutorial1-HelloWorld/tree/main/DAM_TP1) <br>
 
 ---
 
