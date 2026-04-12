@@ -7,7 +7,7 @@
 Course: Licenciatura em Engenharia Informática e Multimédia <br>
 Student(s): 45123 <br>
 Date: 12/04/2026 <br>
-Repository URL: [Tutorial2-AdvancedKotlin](https://github.com/A45123/DAM/tree/main/Tutorial2) <br>
+Repository URL: [Tutorial2-WeatherApp](https://github.com/A45123/DAM/tree/main/Tutorial2-WeatherApp) <br>
 
 ---
 
