@@ -60,8 +60,8 @@ A aplicação destaca-se pelas seguintes implementações técnicas:
 
 ```
 .
-├── DAM_TP2 (Kotlin Advanced Exercises)
-└── CoolWeatherApp (Android Weather Application)
+├── Tutorial2-Kotlin (Kotlin Exercises)
+└── WeatherApp (Android Weather Application)
 ```
 
 ---
