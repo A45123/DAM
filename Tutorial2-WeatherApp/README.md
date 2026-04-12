@@ -29,7 +29,7 @@ Os objetivos principais foram:
 
 # Projetos
 
-## [DAM_TP2_Exercises](https://github.com/A45123/DAM/tree/main/Tutorial2/DAM_TP2) — Advanced Kotlin Exercises
+## [Tutorial2-Kotlin](https://github.com/A45123/DAM/tree/main/Tutorial2-WeatherApp/Tutorial2-Kotlin) — Advanced Kotlin Exercises
 
 Projeto desenvolvido no **IntelliJ IDEA** focado na exploração profunda das capacidades da linguagem Kotlin. Este trabalho demonstra como criar código mais robusto e expressivo através de quatro desafios:
 
@@ -42,7 +42,7 @@ Este projeto serviu para consolidar o uso de funcionalidades modernas que tornam
 
 ---
 
-## [Cool_Weather_App](https://github.com/A45123/DAM/tree/main/Tutorial2/CoolWeatherApp) — Real-Time Weather Application
+## [WeatherApp](https://github.com/A45123/DAM/tree/main/Tutorial2-WeatherApp/WeatherApp) — Real-Time Weather Application
 
 Aplicação Android avançada desenvolvida no **Android Studio** que fornece informações meteorológicas em tempo real para qualquer coordenada geográfica, utilizando a API **Open-Meteo**.
 
