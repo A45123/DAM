@@ -6,7 +6,7 @@
 Course: Licenciatura em Engenharia Informática e Multimédia <br>
 Student(s): 45123 <br>
 Date: 12/04/2026 <br>
-Repository URL: [DAM_TP2_Weather](https://github.com/A45123/DAM/tree/main/Tutorial2-WeatherApp/WeatherApp) <br>
+Repository URL: [WeatherApp](https://github.com/A45123/DAM/tree/main/Tutorial2-WeatherApp/WeatherApp) <br>
 
 ---
 
