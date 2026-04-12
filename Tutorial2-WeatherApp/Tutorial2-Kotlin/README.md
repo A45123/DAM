@@ -5,7 +5,7 @@
 Course: Licenciatura em Engenharia Informática e Multimédia <br>
 Student(s): 45123 <br>
 Date: 12/04/2026 <br>
-Repository URL: [DAM_TP2](https://github.com/A45123/DAM/tree/main/Tutorial2-KotlinExercises) <br>
+Repository URL: [TP2 - Kotlin Exercises](https://github.com/A45123/DAM/tree/main/Tutorial2-WeatherApp/Tutorial2-Kotlin) <br>
 
 ---
 
