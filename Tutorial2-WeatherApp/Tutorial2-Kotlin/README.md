@@ -122,10 +122,10 @@ Extras:
 Classe `Vec2(x: Double, y: Double)`.
 
 Operadores:
-- +
-- -
-- *
-- unary -
+- '+'
+- '-'
+- '*'
+- unary '-'
 
 Outros:
 - compareTo (magnitude)
