@@ -1,7 +1,7 @@
 # Assignment Tutorial 2 - Kotlin Exercises  
 [![IntelliJ IDEA](https://img.shields.io/badge/IDE-IntelliJ%20IDEA-blue)](#)  
 [![Kotlin](https://img.shields.io/badge/Language-Kotlin-orange)](#)
-
+ 
 Course: Licenciatura em Engenharia Informática e Multimédia <br>
 Student(s): 45123 <br>
 Date: 12/04/2026 <br>
