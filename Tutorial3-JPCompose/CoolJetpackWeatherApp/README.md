@@ -1,39 +1,38 @@
 # Tutorial 3 - Cool Jetpack Weather App
 
-[![Android Studio](https://img.shields.io/badge/IDE-Android%20Studio-green)](#)
+[![IDE](https://img.shields.io/badge/IDE-IntelliJ%20IDEA-purple)](#)
 [![Kotlin](https://img.shields.io/badge/Language-Kotlin-orange)](#)
-[![Jetpack Compose](https://img.shields.io/badge/UI-Jetpack%20Compose-blue)](#)
-[![Version](https://img.shields.io/badge/API-24%2B-blue)](#)
+[![Build](https://img.shields.io/badge/Build-Gradle-blue)](#)
 
-Course: Licenciatura em Engenharia Informatica e Multimedia <br>
+Course: Licenciatura em Engenharia Informática e Multimédia <br>
 Student(s): 45123 <br>
 Date: 12/04/2026 <br>
 Repository URL: [CoolJetpackWeatherApp](https://github.com/A45123/DAM/tree/main/Tutorial3-CoolJetpackWeatherApp) <br>
 
 ---
 
-## 1. Introduction
+## 📖 1. Introduction
 
-O objetivo desta fase do trabalho foi a reconstrucao da **Cool Weather App** desenvolvida no tutorial anterior, adaptando-a para seguir a arquitetura **MVVM (Model-View-ViewModel)** e utilizando **Jetpack Compose** em substituicao dos layouts XML.
+O objetivo desta fase do trabalho foi a reconstrução da **Cool Weather App** desenvolvida no tutorial anterior, adaptando-a para seguir a arquitetura **MVVM (Model–View–ViewModel)** e utilizando **Jetpack Compose** em substituição dos layouts XML.
 
-Durante o desenvolvimento, praticou-se a separacao de responsabilidades em camadas (`data`, `viewmodel`, `ui`), a gestao de estado com `StateFlow` e `collectAsState`, o consumo da API **Open-Meteo** com o cliente HTTP **Ktor**, e a serializacao de dados JSON com a biblioteca **Kotlin Serialization**.
+Durante o desenvolvimento, praticou-se a separação de responsabilidades em camadas (`data`, `viewmodel`, `ui`), a gestão de estado com `StateFlow` e `collectAsState`, o consumo da API **Open-Meteo** com o cliente HTTP **Ktor**, e a serialização de dados JSON com a biblioteca **Kotlin Serialization**.
 
-## 2. System Overview
+## 🖥️ 2. System Overview
 
-O projeto foi criado sob o nome **Cool Jetpack Weather App** e permite visualizar dados meteorologicos de qualquer localizacao mundial, atraves da introducao de coordenadas geograficas.
+O projeto foi criado sob o nome **Cool Jetpack Weather App** e permite visualizar dados meteorológicos de qualquer localização mundial, através da introdução de coordenadas geográficas.
 
-Os principais componentes e funcionalidades sao:
+Os principais componentes e funcionalidades são:
 
-- **Arquitetura MVVM**: Separacao clara entre dados (`data`), logica de negocio (`viewmodel`) e interface (`ui`).
+- **Arquitetura MVVM**: Separação clara entre dados (`data`), lógica de negócio (`viewmodel`) e interface (`ui`).
 - **Interface em Jetpack Compose**: UI totalmente declarativa, sem ficheiros XML de layout.
 - **Layouts Adaptativos**: Composables distintos para modo Portrait (`PortraitWeatherUI`) e Landscape (`LandscapeWeatherUI`).
-- **Dados Meteorologicos**: Exibicao de temperatura, pressao ao nivel do mar, velocidade e direcao do vento, codigo meteorologico e hora.
-- **Internacionalizacao**: Suporte a Ingles e Portugues via `strings.xml`.
-- **Networking Assincrono**: Chamadas a API Open-Meteo executadas em coroutines, sem bloquear a thread principal.
+- **Dados Meteorológicos**: Exibição de temperatura, pressão ao nível do mar, velocidade e direção do vento, código meteorológico e hora.
+- **Internacionalização**: Suporte completo a Inglês e Português via `strings.xml`.
+- **Networking Assíncrono**: Chamadas à API Open-Meteo executadas em coroutines, sem bloquear a thread principal.
 
-## 3. Architecture and Design
+## 🏗️ 3. Architecture and Design
 
-O projeto segue a arquitetura **MVVM** recomendada pelo Android Jetpack, com tres pacotes principais:
+O projeto segue a arquitetura **MVVM** recomendada pelo Android Jetpack, com três pacotes principais:
 
 ```text
 dam_a45123.cooljetpackweatherapp
@@ -41,14 +40,14 @@ dam_a45123.cooljetpackweatherapp
 ├── data/
 │   ├── WeatherData.kt          (Classes de dados @Serializable)
 │   ├── WeatherAPIClient.kt     (Cliente Ktor HTTP)
-│   └── WMO_WeatherCode.kt      (Mapeamento de codigos meteorologicos para icones)
+│   └── WMO_WeatherCode.kt      (Mapeamento WMO para ícones/descrições)
 ├── viewmodel/
 │   └── WeatherViewModel.kt     (ViewModel com StateFlow)
 └── ui/
     ├── WeatherUIState.kt       (Estado da UI)
     ├── WeatherScreen.kt        (WeatherUI, PortraitWeatherUI, LandscapeWeatherUI)
-    ├── CoordinatesCard.kt      (Cartao de coordenadas)
-    ├── WeatherCard.kt          (Cartao de dados meteorologicos)
+    ├── CoordinatesCard.kt      (Cartão de coordenadas)
+    ├── WeatherCard.kt          (Cartão de dados meteorológicos)
     ├── WeatherRow.kt           (Linha individual de dado)
     └── theme/
         ├── Theme.kt
@@ -58,97 +57,96 @@ dam_a45123.cooljetpackweatherapp
 
 Foram aplicados os seguintes conceitos:
 
-- **StateFlow + collectAsState** para observacao reativa do estado da UI.
-- **State Hoisting** para manter composables sem estado proprio (stateless).
-- **Coroutines + viewModelScope** para operacoes assincronas de rede.
-- **Material Design 3** com tema personalizado.
+- **StateFlow + collectAsState** para observação reativa do estado da UI.
+- **State Hoisting** para manter composables sem estado próprio (stateless).
+- **Coroutines + viewModelScope** para operações assíncronas de rede.
+- **Material Design 3** com tema personalizado (roxo primário `#6750A4`).
 
-## 4. Implementation
+## ⚙️ 4. Implementation
 
 ### 4.1. Camada de Dados (`data`)
 
-Foram criadas as classes `WeatherData`, `CurrentWeather` e `Hourly`, anotadas com `@Serializable` para integracao com a biblioteca **Kotlin Serialization**. O `WeatherApiClient` utiliza o cliente **Ktor** com o plugin `ContentNegotiation` configurado para JSON, realizando um pedido `GET` a API Open-Meteo e desserializando automaticamente a resposta.
+Foram criadas as classes `WeatherData`, `CurrentWeather` e `Hourly`, anotadas com `@Serializable` para integração com a biblioteca **Kotlin Serialization**. O `WeatherApiClient` utiliza o cliente **Ktor** com o plugin `ContentNegotiation` configurado para JSON, realizando um pedido `GET` à API Open-Meteo e desserializando automaticamente a resposta.
 
-O ficheiro `WMO_WeatherCode.kt` inclui o enum `WMO_WeatherCode`, que mapeia os codigos meteorologicos WMO para icones e descricoes.
+O ficheiro `WMO_WeatherCode.kt` inclui o enum `WMO_WeatherCode`, que mapeia os códigos meteorológicos WMO para ícones e descrições.
 
 ### 4.2. ViewModel (`viewmodel`)
 
-O `WeatherUIState` e uma `data class` que encapsula o estado observavel da UI: latitude, longitude, temperatura, velocidade e direcao do vento, pressao ao nivel do mar, codigo meteorologico, hora e indicador de dia/noite.
+O `WeatherUIState` é uma `data class` que encapsula todo o estado observável da UI: latitude, longitude, temperatura, velocidade e direção do vento, pressão ao nível do mar, código meteorológico, hora e indicador de dia/noite.
 
-O `WeatherViewModel` expoe esse estado atraves de um `MutableStateFlow` privado e um `StateFlow` publico (`uiState`). Disponibiliza os metodos `updateLatitude`, `updateLongitude` e `fetchWeather`, este ultimo executado numa coroutine em `viewModelScope`, garantindo que a thread principal nunca e bloqueada.
+O `WeatherViewModel` expõe esse estado através de um `MutableStateFlow` privado e um `StateFlow` público (`uiState`). Disponibiliza os métodos `updateLatitude`, `updateLongitude` e `fetchWeather`, este último executado numa coroutine em `viewModelScope`, garantindo que a thread principal nunca é bloqueada.
 
 ### 4.3. Interface (`ui`)
 
-A funcao composable `WeatherUI` e o ponto de entrada da interface. Obtem o `WeatherViewModel` via `viewModel()`, recolhe o estado com `collectAsState()` e delega a renderizacao para `PortraitWeatherUI` ou `LandscapeWeatherUI` consoante a orientacao detetada pelo `LocalConfiguration`.
+A função composable `WeatherUI` é o ponto de entrada da interface. Obtém o `WeatherViewModel` via `viewModel()`, recolhe o estado com `collectAsState()` e delega a renderização para `PortraitWeatherUI` ou `LandscapeWeatherUI` consoante a orientação detetada pelo `LocalConfiguration`.
 
-Os composables `CoordinatesCard`, `WeatherCard` e `WeatherRow` seguem o principio de responsabilidade unica e sao reutilizados em ambas as orientacoes.
+Os composables `CoordinatesCard`, `WeatherCard` e `WeatherRow` seguem o princípio de responsabilidade única e são reutilizados em ambas as orientações. O tema segue o **Material Design 3** com paleta roxa/lavanda.
 
-### 4.4. Internacionalizacao
+### 4.4. Internacionalização
 
-Todas as strings visiveis ao utilizador estao definidas em:
+Todas as strings visíveis ao utilizador estão definidas em `res/values/strings.xml` (Inglês) e `res/values-pt/strings.xml` (Português). Não existem strings hardcoded nos ficheiros Kotlin da UI.
 
-- `res/values/strings.xml` (Ingles)
-- `res/values-pt/strings.xml` (Portugues)
+## 🔍 5. Testing and Validation
 
-## 5. Testing and Validation
+Os testes foram realizados utilizando o emulador Android:
 
-Os testes foram realizados no emulador Android:
+- Verificou-se a alternância correta entre `PortraitWeatherUI` e `LandscapeWeatherUI` ao rodar o dispositivo.
+- Testou-se a introdução de diferentes coordenadas e confirmou-se a atualização correta dos dados exibidos.
+- Validou-se a alteração do idioma da app ao mudar as definições do sistema Android para Português.
+- Confirmou-se compilação com sucesso através de `:app:compileDebugKotlin`.
 
-- Verificou-se a alternancia correta entre `PortraitWeatherUI` e `LandscapeWeatherUI` ao rodar o dispositivo.
-- Testou-se a introducao de diferentes coordenadas e confirmou-se a atualizacao dos dados exibidos.
-- Validou-se a alteracao do idioma da app ao mudar as definicoes do sistema Android para Portugues.
-- Confirmou-se compilacao com sucesso em `:app:compileDebugKotlin`.
+## 📝 6. Usage Instructions
 
-## 6. Usage Instructions
+Para executar a aplicação:
 
-Para executar a aplicacao:
-
-- Abrir o projeto no **Android Studio**.
-- Garantir que o **JDK 17** esta configurado em `File > Project Structure > SDK Location`.
-- Garantir que o emulador (AVD) ou dispositivo real tem ligacao a internet.
+- Abrir o projeto no **Android Studio** (recomendado: Hedgehog ou superior).
+- Garantir que o **JDK 17** está configurado em `File > Project Structure > SDK Location`.
+- Garantir que o emulador (AVD) ou dispositivo real tem ligação à internet.
 - Executar `Sync Project with Gradle Files`.
-- Executar a aplicacao (`Shift + F10`).
+- Executar a aplicação (`Shift + F10`).
 - Introduzir as coordenadas desejadas nos campos de Latitude e Longitude.
-- Premir o botao **Update Weather** / **Atualizar meteorologia**.
+- Premir o botão **Update Weather** / **Atualizar meteorologia**.
 
 ---
 
-## Autonomous Software Engineering Sections
+# Autonomous Software Engineering Sections
 
-Esta secao nao se aplica a este trabalho, uma vez que o enunciado indica explicitamente **AC YES**, **AI NO**.
+Esta secção não se aplica a este trabalho, uma vez que o enunciado indica explicitamente **AC YES**, **AI NO**.
 
 ---
 
-## 12. Version Control and Commit History
+# Development Process
 
-Foi utilizado o sistema de controlo de versoes **Git** integrado no Android Studio. Os commits foram organizados por fase de desenvolvimento: estrutura MVVM e classes de dados, integracao do cliente Ktor, construcao da UI em Compose para portrait, adaptacao para landscape, e por fim a internacionalizacao e polimento visual.
+## 📦 12. Version Control and Commit History
 
-## 13. Difficulties and Lessons Learned
+Foi utilizado o sistema de controlo de versões **Git** integrado no Android Studio. Os commits foram organizados por fase de desenvolvimento: estrutura MVVM e classes de dados, integração do cliente Ktor, construção da UI em Compose para portrait, adaptação para landscape, e por fim a internacionalização e polimento visual.
+
+## 🌱 13. Difficulties and Lessons Learned
 
 ### 13.1 Dificuldades
 
-Uma das principais dificuldades foi a configuracao correta do plugin **Kotlin Serialization** no Gradle, nomeadamente garantir que o plugin `kotlin-serialization` estava declarado no `libs.versions.toml` e aplicado no `build.gradle.kts`. Outro desafio foi compreender o fluxo de dados unidirecional do MVVM.
+Uma das principais dificuldades foi a configuração correta do plugin **Kotlin Serialization** no Gradle, nomeadamente garantir que o plugin `kotlin-serialization` estava declarado no `libs.versions.toml` e aplicado no `build.gradle.kts`. Outro desafio foi compreender o fluxo de dados unidirecional do MVVM.
 
-A gestao das orientacoes em Compose tambem exigiu atencao: ao contrario dos layouts XML com pasta `layout-land`, em Compose a orientacao e detetada em tempo de execucao via `LocalConfiguration.current`.
+A gestão das orientações em Compose também exigiu atenção: ao contrário dos layouts XML com pasta `layout-land`, em Compose a orientação é detetada em tempo de execução via `LocalConfiguration.current`.
 
-### 13.2 Licoes Aprendidas
+### 13.2 Lições Aprendidas
 
-- Arquitetura MVVM e separacao de responsabilidades em Android.
-- Programacao reativa com `StateFlow` e `collectAsState`.
-- Utilizacao de coroutines para operacoes de rede assincronas.
-- Construcao de interfaces declarativas e adaptativas com Jetpack Compose.
-- Serializacao de JSON com Kotlin Serialization e Ktor.
+- Arquitetura MVVM e separação de responsabilidades em Android.
+- Programação reativa com `StateFlow` e `collectAsState`.
+- Utilização de coroutines para operações de rede assíncronas.
+- Construção de interfaces declarativas e adaptativas com Jetpack Compose.
+- Serialização de JSON com Kotlin Serialization e Ktor.
 
-## 14. Future Improvements
+## 🔧 14. Future Improvements
 
 No futuro, o projeto poderia ser expandido com:
 
-- Melhor tratamento de erros de rede e mensagens de estado para o utilizador.
-- Integracao com o GPS do dispositivo para localizacao automatica.
-- Previsao para as proximas horas com visualizacao grafica.
-- Persistencia das ultimas coordenadas pesquisadas com DataStore.
-- Testes unitarios do `WeatherViewModel` com `kotlinx-coroutines-test`.
+- Derivação automática do modo dia/noite a partir do campo `time` da API.
+- Integração com o GPS do dispositivo para localização automática.
+- Previsão para as próximas horas com visualização gráfica.
+- Persistência das últimas coordenadas pesquisadas com DataStore.
+- Testes unitários do `WeatherViewModel` com `kotlinx-coroutines-test`.
 
-## 15. AI Usage Disclosure (Mandatory)
+## ⚠️ 15. AI Usage Disclosure (Mandatory)
 
-Conforme o enunciado da **Tutorial 3** (**AC YES**, **AI NO**): nao foi utilizada assistencia de **Inteligencia Artificial** na elaboracao do codigo nem deste relatorio. O autocomplete do Android Studio foi utilizado apenas na medida permitida por **AC YES**.
+Conforme o enunciado da **Tutorial 3** (**AC YES**, **AI NO**): não foi utilizada assistência de **Inteligência Artificial** na elaboração do código nem deste relatório. O autocomplete do Android Studio foi utilizado apenas na medida permitida por **AC YES**.
