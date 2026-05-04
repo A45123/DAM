@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Aplicacao de Meteorologia Jetpack</string>
+    <string name="update_button">Atualizar meteorologia</string>
+    <string name="coordinates_title">Coordenadas</string>
+    <string name="latitude_label">Latitude</string>
+    <string name="longitude_label">Longitude</string>
+    <string name="sea_level_pressure_label">Pressao ao nivel do mar</string>
+    <string name="wind_direction_label">Direcao do vento</string>
+    <string name="wind_speed_label">Velocidade do vento</string>
+    <string name="temperature_label">Temperatura</string>
+    <string name="weather_code_label">Codigo meteorologico</string>
+    <string name="time_label">Hora</string>
+</resources>

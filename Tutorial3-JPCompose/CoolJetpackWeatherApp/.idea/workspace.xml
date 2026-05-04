@@ -1,10 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+    <layouts>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+        <config>
+          <theme>@style/Theme.Cooljetpackweatherapp</theme>
+        </config>
+      </layout>
+    </layouts>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d5dcadb7-2593-4b3d-b3c1-6ed6e0e8d148" name="Changes" comment="Upload" />
+    <list default="true" id="2f1945cc-0975-471b-8f19-a291e4e385ca" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,7 +39,7 @@
             <expand>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="CoolJetpackWeatherApp" type="f1a62948:ProjectNode" />
+                <item name="Cooljetpackweatherapp" type="f1a62948:ProjectNode" />
               </path>
             </expand>
             <select />
@@ -36,29 +48,11 @@
       </state>
     </system>
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;A45123&quot;
-  }
-}</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/A45123/CoolJetpackWeatherApp&quot;,
-    &quot;accountId&quot;: &quot;8c4a203b-c3fc-4c43-a372-d79a0d5c4bd1&quot;
-  }
-}</component>
-  <component name="GradleScriptDefinitionsStorage" workingDir="$PROJECT_DIR$" gradleHome="C:\Users\Utilizador\.gradle\wrapper\dists\gradle-9.0.0-bin\d6wjpkvcgsg3oed0qlfss3wgl\gradle-9.0.0" javaHome="C:\Program Files\Android\Android Studio\jbr" gradleVersion="9.0.0" />
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 2
-}</component>
-  <component name="ProjectId" id="3DCtwyTKOLYadbwzEZSoKpVRVnr" />
-  <component name="ProjectReloadState">
-    <option name="STATE" value="1" />
-  </component>
+  <component name="GradleScriptDefinitionsStorage" workingDir="$PROJECT_DIR$" gradleHome="C:\Users\Utilizador\.gradle\wrapper\dists\gradle-9.2.1-bin\2t0n5ozlw9xmuyvbp7dnzaxug\gradle-9.2.1" javaHome="C:\Program Files\Android\Android Studio\jbr" gradleVersion="9.2.1" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="3DEXNHlGUuTNjHfBAJYx6p4iyu8" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -68,20 +62,18 @@
     "Android App.app.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
-    "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.readMode.enableVisualFormatting": "true",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
-    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Utilizador/Documents/CoolJetpackWeatherApp"
+    "settings.editor.selected.configurable": "preferences.updates"
   }
 }]]></component>
   <component name="RunManager">
     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
-      <module name="CoolJetpackWeatherApp.app" />
+      <module name="Cooljetpackweatherapp.app" />
       <option name="ANDROID_RUN_CONFIGURATION_SCHEMA_VERSION" value="1" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
@@ -155,49 +147,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d5dcadb7-2593-4b3d-b3c1-6ed6e0e8d148" name="Changes" comment="" />
-      <created>1777798121536</created>
+      <changelist id="2f1945cc-0975-471b-8f19-a291e4e385ca" name="Changes" comment="" />
+      <created>1777848160466</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1777798121536</updated>
+      <updated>1777848160466</updated>
     </task>
-    <task id="LOCAL-00001" summary="Upload">
-      <option name="closed" value="true" />
-      <created>1777833626665</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1777833626665</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Upload">
-      <option name="closed" value="true" />
-      <created>1777833718615</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1777833718615</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
     <servers />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Upload" />
-    <option name="LAST_COMMIT_MESSAGE" value="Upload" />
-  </component>
-  <component name="play_dynamic_filters_status">
-    <option name="appIdToCheckInfo">
-      <map>
-        <entry key="com.example.cooljetpackweatherapp">
-          <value>
-            <CheckInfo lastCheckTimestamp="1777833631434" />
-          </value>
-        </entry>
-        <entry key="com.example.cooljetpackweatherapp.test">
-          <value>
-            <CheckInfo lastCheckTimestamp="1777833631434" />
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
 </project>
